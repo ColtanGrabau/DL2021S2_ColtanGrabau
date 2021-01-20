@@ -59,24 +59,41 @@
 %======================================================
 %=========== Body  ====================================
 \begin{document}
-
-\title{ELC 2137 Lab \#\#: Git and LaTeX Intro Lab 1}
-\author{Coltan Grabau}
-
-\maketitle
-
-
-\section*{Summary}
-
-Type the summary of your experiment and results here.  
-
-
-\section*{Q\&A}
-
-Answer questions posed in the lab assignment here.
-
-
-\section*{Results}
+	
+	\title{ELC 2137 Lab \#\#: Git and LaTeX Intro Lab 1}
+	\author{Coltan Grabau}
+	
+	\maketitle
+	
+	
+	\section*{Summary}
+	
+	This lab, the main objective was to learn about the two main tools that are used for programming: Git and LaTex. The basics of the Git process is to allow a user to upload their file and later pull this file and work on it, or to allow another programmer to pull the file, edit it, and then push it back into the main file. These files can either be local or remote meaning either the files are on the computers hard drive or acceciable from anywhere. The purpose of LaTex is to allow a user to edit a report and customize every option. These reports, as shown below, can have images, code, lists, tables, and section headings.
+	
+	
+	\section*{Q\&A}
+	
+	\begin{enumerate}
+		\item What is your GitHub user name?
+		
+		ColtanGrabau
+		
+		\item What  LaTeX  environment  produces  a  bulleted(non-numbered) list?
+		
+		Itemize 
+		
+		\item Write  the  equation y(t) = 1/2 $e^t$ using  La-TeX equation formatting.
+		
+		$y(t) = \frac{1}{2}e^t$
+		
+		\item What is the shortcut key for compiling your La-TeX document?
+		
+		F6
+		
+	\end{enumerate}
+	
+	
+	\section*{Results}
 	\begin{figure}[ht]\centering
 		\begin{center}
 			\begin{tabular}{c|c|c}
@@ -91,19 +108,17 @@ Answer questions posed in the lab assignment here.
 				1010 & A & 10 \\
 				\bottomrule
 			\end{tabular}
-			\caption{Table of Binary to Hex to Decimal}
 		\end{center}
-	\end{figure}
-
-	\begin{figure}[ht]\centering
 		\includegraphics[width=1\textwidth,trim=18.5cm 15.5cm .5cm 4.5cm,clip]{lab1_example_screenshot}
-		\caption{Simulation Waveform}
+		\caption{Table and simulation waveform to reproduce}
 		\label{fig:Simulation}
 	\end{figure}
 
-\section*{Code}
-
-Include all of the code you wrote or modified here.
-
-
+	
+	
+	\section*{Code}
+	
+	\Verilog[caption=File-included Verilog code example,label=code:file_ex]{lab1_example_code.sv}
+	
+	
 \end{document}
